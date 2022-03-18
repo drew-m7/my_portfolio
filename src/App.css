@@ -1,11 +1,11 @@
 .header-color {
-  background: #dddddd;  /* fallback for old browsers */
+  background: #1d1377;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #0c2094, #1cb0dd, #c9711f);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #c9711f, #1cb0dd, #0c2094); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
-  background: #2d4168;  /* fallback for old browsers */
+  background: #ffffff;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #0c2094, #1cb0dd, #c9711f);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #0c2094, #1cb0dd, #c9711f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
@@ -78,10 +78,10 @@
 /* contact page css */
 
 .avatar-img {
-  height: 250px;
-  padding-top: 5em;
-  /* border: 2px solid #1cb0dd; */
-  /* border-radius: 10px; */
+  height: 300px;
+  padding-top: 6em;
+  /* border: 2px solid #1cb0dd;
+  border-radius: 10px; */
   border-width: 2px;
 }
 
