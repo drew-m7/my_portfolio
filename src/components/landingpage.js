@@ -12,14 +12,13 @@ class Landing extends Component {
           <Cell col={12}>
             <img
               src={picofme}
-              alt="picture of Drew Martin"
+              alt="Drew Martin"
               className="avatar-img"
               />
 
             <div className="banner-text">
               <h1>Drew Martin | Software Developer</h1>
-
-            <hr/>
+\            <hr/>
 
           <p> Python | Java | C/C++ | HTML/CSS | JavaScript | React | Vue | R | SQL </p>
 
