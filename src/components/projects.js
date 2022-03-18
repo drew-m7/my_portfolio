@@ -106,7 +106,62 @@ class Projects extends Component {
             <IconButton name="share" />
           </CardMenu>
         </Card>
-      
+         {/* Project 2 */}
+         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: 'black', height: '176px', background: '#1cb0dd'}} >C++ Programming</CardTitle>
+          <CardText>
+            Several C++ projects related to binary search trees, AVL trees, and splay trees!
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+          </CardText>
+          <CardActions border>
+          <Button colored> <a href="https://github.com/drew-m7/CPP-Programs">GitHub</a></Button>
+            {/* <Button colored>CodePen</Button> */}
+            {/* <Button colored>Live Demo</Button> */}
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+        {/* Project 3 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: 'black', height: '176px', background: '#1cb0dd'}} >R Project</CardTitle>
+          <CardText>
+            This is a group project done while researching R language in my concepts of programming languages class. R is a super cool and powerful tool for 
+            statistical computing and graphing!
+            <br></br>
+            <br></br>
+          </CardText>
+          <CardActions border>
+          <Button colored> <a href="https://github.com/drew-m7/R-Project-Progams">GitHub</a></Button>
+            {/* <Button colored>CodePen</Button> */}
+            {/* <Button colored>Live Demo</Button> */}
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+        {/* Project 4 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: 'black', height: '176px', background: '#1cb0dd'}} >Java RMI</CardTitle>
+          <CardText>
+            Here is a RMI(remote method invocation) written in java between a client and server!
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+          </CardText>
+          <CardActions border>
+          <Button colored> <a href="https://github.com/drew-m7/Java-RMI">GitHub</a></Button>
+            {/* <Button colored>CodePen</Button> */}
+            {/* <Button colored>Live Demo</Button> */}
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
       </div>
       )
     } 
