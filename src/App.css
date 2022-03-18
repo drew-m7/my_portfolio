@@ -1,13 +1,13 @@
 .header-color {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #dddddd;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0c2094, #1cb0dd, #c9711f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #c9711f, #1cb0dd, #0c2094); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #2d4168;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0c2094, #1cb0dd, #c9711f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0c2094, #1cb0dd, #c9711f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
   top: 0;
@@ -22,8 +22,8 @@
 
 /* Resume Page css */
 .resume-right-col {
-  background: #27221F;
-  color: white;
+  background: #272727;
+  color: rgb(226, 226, 226);
   padding: 2em;
 }
 
@@ -41,30 +41,36 @@
 .contact-grid {
   text-align: center;
   justify-content: center;
-  width: 80%;
-  height: 550px;
+  width: 90%;
+  height: 560px;
   background: white;
-  color: black;
+  color: #0c2094;
   margin-bottom: 20px;
 }
 
 .contact-grid h2 {
   font-family: 'Anton', sans-serif;
+  color: #0c2094;
+
 }
 
 .contact-grid p {
   font-family: 'Oxygen', sans-serif;
-  font-weight: bold;
+  color: #0c2094;
+
+  /* font-weight: bold; */
 }
 
 .contact-grid hr {
-  border-top: 5px dotted black;
+  border-top: 5px dotted #0c2094;
   width: 50%;
   margin: auto;
 }
 
 .contact-list i {
   font-size: 66px;
+  color: #0c2094;
+
   padding-right: 5rem;
 }
 
@@ -74,12 +80,13 @@
 .avatar-img {
   height: 250px;
   padding-top: 5em;
-  border: #fcfcfc;
-  border-width: 10px;
+  /* border: 2px solid #1cb0dd; */
+  /* border-radius: 10px; */
+  border-width: 2px;
 }
 
 .banner-text {
-  background-color: black;
+  background-color: #0c2094;
   opacity: .8;
   width: 75%;
   margin: auto;
@@ -87,19 +94,19 @@
 }
 
 .banner-text h1 {
-  font-size: 66px;
-  font-weight: bold;
-  color: white;
+  font-size: 70px;
+  /* font-weight: bold; */
+  color: #e78224;
 }
 
 .banner-text hr {
-  border-top: 5px dotted white;
+  border-top: 5px dotted #e78224;
   width: 50%;
   margin: auto;
 }
 
 .banner-text p {
-  color: white;
+  color: #e78224;
   font-size: 20px;
   padding: 1em;
 }
@@ -112,7 +119,31 @@
 }
 
 .social-links i {
-  color: white;
+  color: #e78224;
   font-size: 5em;
   padding: 8px;
+}
+
+a:link {
+  color: rgb(29, 85, 102);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(32, 159, 190);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(255, 136, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(5, 2, 134);
+  background-color: transparent;
+  text-decoration: underline;
 }

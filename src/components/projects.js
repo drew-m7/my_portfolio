@@ -10,19 +10,19 @@ class Projects extends Component {
 
   toggleCategories() {
 
-    if(this.state.activeTab === 0){
+    if(this.state.activeTab === 1){
       return(
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: 'black', height: '176px', background: '#1cb0dd'}} >Python Project #1</CardTitle>
             <CardText>
-            Describe some project
+            A collection of simple Python programs I work on for fun!
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <Button colored> <a href="https://github.com/drew-m7/Random-stuff">GitHub</a></Button>
+              {/* <Button colored>CodePen</Button> */}
+              {/* <Button colored>Live Demo</Button> */}
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -31,14 +31,14 @@ class Projects extends Component {
 
           {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+            <CardTitle style={{color: 'black', height: '176px', background: '#1cb0dd'}} >Python Project #2</CardTitle>
             <CardText>
-            Describe some project
+            A simple Python program that shows working with classes and inheritance.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <Button colored> <a href="https://github.com/drew-m7/Python-Classes">GitHub</a></Button>
+              {/* <Button colored>CodePen</Button> */}
+              {/* <Button colored>Live Demo</Button> */}
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -47,14 +47,14 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
+            <CardTitle style={{color: 'black', height: '176px', background: '#1cb0dd'}} >Python Project #3</CardTitle>
             <CardText>
-            Describe some project
+            A super cool Python project for checking the legality of chess moves!
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <Button colored> <a href="https://github.com/drew-m7/Chess-Moves">GitHub</a></Button>
+              {/* <Button colored>CodePen</Button> */}
+              {/* <Button colored>Live Demo</Button> */}
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -64,19 +64,52 @@ class Projects extends Component {
 
 
       )
-    } else if(this.state.activeTab === 1) {
-      return (
-        <div><h1>Something should go here...</h1></div>
+    } else if(this.state.activeTab === 0) {
+      return(
+        <div className="projects-grid">
+          {/* Project 1 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: 'black', height: '176px', background: '#1cb0dd'}} >React Portfolio</CardTitle>
+            <CardText>
+            My personal portfolio website built with React, Node.js, and npm. This project helped me learn some new skills with building and deploying a React project!
+            </CardText>
+            <CardActions border>
+            <Button colored> <a href="https://github.com/drew-m7/my_portfolio">GitHub</a></Button>
+              {/* <Button colored>CodePen</Button> */}
+              {/* <Button colored>Live Demo</Button> */}
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+        
+        </div>
+
+
       )
     } else if(this.state.activeTab === 2) {
       return (
-        <div><h1>Something should go here...</h1></div>
+        <div className="projects-grid">
+        {/* Project 1 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: 'black', height: '176px', background: '#1cb0dd'}} >Various Other Projects</CardTitle>
+          <CardText>
+            My GitHub has several other projects and I am always adding more! Some other projects to check out are written in Java, C, C++, OpenGL, and R.
+            A lot of these have to do with data structures and algorithms.
+          </CardText>
+          <CardActions border>
+          <Button colored> <a href="https://github.com/drew-m7?tab=repositories">GitHub</a></Button>
+            {/* <Button colored>CodePen</Button> */}
+            {/* <Button colored>Live Demo</Button> */}
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+      
+      </div>
       )
-    } else if(this.state.activeTab === 3) {
-      return (
-        <div><h1>Something should go here...</h1></div>
-      )
-    }
+    } 
 
   }
 
@@ -86,10 +119,10 @@ class Projects extends Component {
     return(
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>Python</Tab>
-          <Tab>C/C++</Tab>
-          <Tab>TODO</Tab>
-          <Tab>TODO</Tab>
+          <Tab>React Portfolio</Tab>
+          <Tab>Python Projects</Tab>
+          <Tab>Other Projects</Tab>
+          {/* <Tab>TODO</Tab> */}
         </Tabs>
 
 

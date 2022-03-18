@@ -1,12 +1,6 @@
-#Hello
-# My first Portfolio website, a bit of a WIP
+# My first Portfolio website, built using React
+- To run locally and check it out:
+- Clone this repo, CD into it, make sure npm is installed, then run npm install, and finally npm start, which will load the site in a browser!
+# Built using react, node, and npm
+- I know, it's looking pretty sweet!
 
-
-- To run locally:
-- Clone this repo, CD into this folder, make sure npm is installed, then run npm install, and finally npm start, which will load the site in a browser!
-
-
-
-- TODO: Add some projects and make UI prettier
-
-# This is a portfolio site built using react!

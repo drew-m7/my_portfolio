@@ -15,29 +15,29 @@ class Resume extends Component {
             <div style={{textAlign: 'center'}}>
               <img
                 src={picofme}
-                alt="avatar"
+                alt="That's Drew, what a nice guy!"
                 style={{height: '200px'}}
                  />
             </div>
 
             <h2 style={{paddingTop: '2em'}}>Drew Martin</h2>
-            <h4 style={{color: 'grey'}}>Comp Sci Student and Software Dev</h4>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <h4 style={{color: 'black'}}>Computer Science | Software Developer | Designer</h4>
+            <hr style={{borderTop: '3px solid #0c2094', width: '50%'}}/>
             <p> Programming languages: Java, C/C++, Python, JavaScript, SQL, R, HTML/CSS <br></br>
                 <br></br>
                 Significant coursework: data structures and algorithms, database design, UI/UX design, computer architecture, distributed systems, operating systems, software security, graphics, computation theory, and mathematics<br></br>
                 <br></br>
                 Experience with analytical thinking and technical problem solving, leadership, team collaboration, and strong communication skills</p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <hr style={{borderTop: '3px solid #0c2094', width: '50%'}}/>
             <h5>Address</h5>
             <p>Roanoke, IL</p>
             <h5>Phone</h5>
             <p>(309) 613-1986</p>
             <h5>Email</h5>
             <p>drewmartin997@gmail.com</p>
-            <h5>Web</h5>
-            <p>TODO.com</p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            {/* <h5>Web</h5>
+            <p>TODO.com</p> */}
+            <hr style={{borderTop: '3px solid #0c2094', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
@@ -63,14 +63,14 @@ class Resume extends Component {
                  schoolName="Illinois State University"
                  schoolDescription="Bachelor of Science, Computer Science "
                   />
-                <hr style={{borderTop: '3px solid #e22947'}} />
+                <hr style={{borderTop: '3px solid #0c2094'}} />
 
               <h2>Experience</h2>
 
             <Experience
               startYear={2019}
               endYear={2020}
-              jobName="Cloudpoint Geospatial"
+              jobName="Cloudpoint Geospatial | Data Analyst"
               jobDescription="Responsible for handling large amounts of data, analyzing data with attention to detail, and determining where to store data in web map applications for clients, played a vital role in developing several web map applications for various clients"
               jobDescription2="Developed strong soft skills and technical expertise through active communication between coworkers and clients "
               />
@@ -78,31 +78,52 @@ class Resume extends Component {
               <Experience
                 startYear={2021}
                 endYear={2022}
-                jobName="Mirus Research"
+                jobName="Mirus Research | Software Engineer"
                 jobDescription="Work individually and on small teams to develop new features and enhancements of existing applications, and research various technical solutions based on customer specifications"
-                jobDescription2="Developed skills to work with code repositories, local development, and CI/CD techniques using various languages such as Python and JavaScript along with many different technologies, frameworks, and API’s"
+                jobDescription2="Developed skills to work with code repositories, local development, and CI/CD techniques using various languages such as Python and JavaScript along with many different technologies, frameworks, and API’s, frontend development mainly in Vue.js, backend development mainly in Python"
                 />
-              <hr style={{borderTop: '3px solid #e22947'}} />
+              <hr style={{borderTop: '3px solid #0c2094'}} />
+              
               <h2>Skills</h2>
               <Skills
-                skill="javascript"
+                skill="Javascript"
                 progress={70}
                 />
                 <Skills
                   skill="HTML/CSS"
-                  progress={74}
+                  progress={75}
                   />
                   <Skills
                   skill="Java"
-                  progress={65}
+                  progress={75}
                   />
                   <Skills
                     skill="Python"
-                    progress={80}
+                    progress={85}
                     />
                     <Skills
                       skill="C/C++"
+                      progress={60}
+                      />
+                       <Skills
+                      skill="Vue"
+                      progress={70}
+                      />
+                       <Skills
+                      skill="React"
                       progress={40}
+                      />
+                       <Skills
+                      skill="R"
+                      progress={30}
+                      />
+                       <Skills
+                      skill="SQL"
+                      progress={45}
+                      />
+                       <Skills
+                      skill="UI/UX Design"
+                      progress={50}
                       />
 
 
