@@ -21,7 +21,7 @@ class Resume extends Component {
             </div>
 
             <h2 style={{paddingTop: '2em'}}>Drew Martin</h2>
-            <h4 style={{color: 'black'}}>Computer Science | Software Developer | Designer</h4>
+            <h4 style={{color: 'black'}}>Computer Science Student | Software Developer | Designer</h4>
             <hr style={{borderTop: '3px solid #0c2094', width: '50%'}}/>
             <p> Programming languages: Java, C/C++, Python, JavaScript, SQL, R, HTML/CSS <br></br>
                 <br></br>
