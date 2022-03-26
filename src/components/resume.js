@@ -88,43 +88,43 @@ class Resume extends Component {
               <Skills
                 skill="Javascript"
                 progress={70}
-                />
-                <Skills
-                  skill="HTML/CSS"
-                  progress={75}
-                  />
-                  <Skills
-                  skill="Java"
-                  progress={75}
-                  />
-                  <Skills
-                    skill="Python"
-                    progress={85}
-                    />
-                    <Skills
-                      skill="C/C++"
-                      progress={60}
-                      />
-                       <Skills
-                      skill="Vue"
-                      progress={70}
-                      />
-                       <Skills
-                      skill="React"
-                      progress={40}
-                      />
-                       <Skills
-                      skill="R"
-                      progress={30}
-                      />
-                       <Skills
-                      skill="SQL"
-                      progress={45}
-                      />
-                       <Skills
-                      skill="UI/UX Design"
-                      progress={50}
-                      />
+              />
+              <Skills
+                skill="HTML/CSS"
+                progress={75}
+              />
+              <Skills
+                skill="Java"
+                progress={75}
+              />
+              <Skills
+                skill="Python"
+                progress={85}
+              />
+              <Skills
+                skill="C/C++"
+                progress={60}
+              />
+              <Skills
+                skill="Vue"
+                progress={70}
+              />
+              <Skills
+                skill="React"
+                progress={40}
+              />
+              <Skills
+                skill="R"
+                progress={30}
+              />
+              <Skills
+                skill="SQL"
+                progress={45}
+              />
+              <Skills
+                skill="UI/UX Design"
+                progress={50}
+              />
 
 
           </Cell>
