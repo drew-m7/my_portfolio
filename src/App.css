@@ -1,13 +1,13 @@
 .header-color {
-  background: #1d1377;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0c2094, #1cb0dd, #c9711f);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #c9711f, #1cb0dd, #0c2094); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #1cb0dd;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1cb0dd, #1cb0ddad, #1cb0dd);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1cb0dd, #1cb0ddad, #1cb0dd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
   background: #ffffff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0c2094, #1cb0dd, #c9711f);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0c2094, #1cb0dd, #c9711f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #ffffff, #1cb0dd, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #1cb0dd, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
   top: 0;
@@ -22,7 +22,7 @@
 
 /* Resume Page css */
 .resume-right-col {
-  background: #272727;
+  background: #0f0f0f;
   color: rgb(226, 226, 226);
   padding: 2em;
 }
@@ -44,32 +44,32 @@
   width: 90%;
   height: 560px;
   background: white;
-  color: #0c2094;
+  color: #1cb0dd;
   margin-bottom: 20px;
 }
 
 .contact-grid h2 {
   font-family: 'Anton', sans-serif;
-  color: #0c2094;
+  color: #1cb0dd;
 
 }
 
 .contact-grid p {
   font-family: 'Oxygen', sans-serif;
-  color: #0c2094;
+  color: #1cb0dd;
 
   /* font-weight: bold; */
 }
 
 .contact-grid hr {
-  border-top: 5px dotted #0c2094;
+  border-top: 5px dotted #1cb0dd;
   width: 50%;
   margin: auto;
 }
 
 .contact-list i {
   font-size: 66px;
-  color: #0c2094;
+  color: #1cb0dd;
 
   padding-right: 5rem;
 }
@@ -78,7 +78,7 @@
 /* contact page css */
 
 .avatar-img {
-  height: 300px;
+  height: 225px;
   padding-top: 6em;
   /* border: 2px solid #1cb0dd;
   border-radius: 10px; */
@@ -86,8 +86,8 @@
 }
 
 .banner-text {
-  background-color: #0c2094;
-  opacity: .8;
+  background-color: #ffffff;
+  opacity: 1;
   width: 75%;
   margin: auto;
   border-radius: 10px;
@@ -96,17 +96,17 @@
 .banner-text h1 {
   font-size: 70px;
   /* font-weight: bold; */
-  color: #e78224;
+  color: #1999c0;
 }
 
 .banner-text hr {
-  border-top: 5px dotted #e78224;
+  border-top: 5px dotted #60abc2;
   width: 50%;
   margin: auto;
 }
 
 .banner-text p {
-  color: #e78224;
+  color: #1999c0;
   font-size: 20px;
   padding: 1em;
 }
@@ -119,13 +119,13 @@
 }
 
 .social-links i {
-  color: #e78224;
+  color: #1781a1;
   font-size: 5em;
   padding: 8px;
 }
 
 a:link {
-  color: rgb(29, 85, 102);
+  color: rgb(32, 85, 102);
   background-color: transparent;
   text-decoration: none;
 }
@@ -137,13 +137,13 @@ a:visited {
 }
 
 a:hover {
-  color: rgb(255, 136, 0);
+  color: rgb(255, 102, 0);
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:active {
-  color: rgb(5, 2, 134);
+  color: rgb(4, 0, 255);
   background-color: transparent;
   text-decoration: underline;
 }

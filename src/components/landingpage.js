@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import picofme from "../Assets/picofme.jpg";
 
-
-
 class Landing extends Component {
   render() {
     return(
@@ -17,15 +15,17 @@ class Landing extends Component {
               />
 
             <div className="banner-text">
-              <h1>Drew Martin | Software Developer</h1>
-\            <hr/>
+              <h1>Drew Martin</h1>
+              <p> Software Engineer | UI/UX Designer | Web Developer </p>
+
+            <hr/>
 
           <p> Python | Java | C/C++ | HTML/CSS | JavaScript | React | Vue | R | SQL </p>
 
         <div className="social-links">
 
           {/* LinkedIn */}
-          <a href="https://www.linkedin.com/in/drew-martin-556436225/" rel="noopener noreferrer" target="_blank">
+          <a href="https://www.linkedin.com/in/drew-martin-556436225" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-linkedin-square" aria-hidden="true" />
           </a>
 

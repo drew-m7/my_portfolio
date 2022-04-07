@@ -17,7 +17,7 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: 'black', height: '176px', background: '#1cb0dd'}} >Python Project #1</CardTitle>
             <CardText>
-            A collection of simple Python programs I work on for fun!
+            A collection of various simple Python programs I have developed
             </CardText>
             <CardActions border>
             <Button colored> <a href="https://github.com/drew-m7/Random-stuff">GitHub</a></Button>
@@ -33,7 +33,7 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: 'black', height: '176px', background: '#1cb0dd'}} >Python Project #2</CardTitle>
             <CardText>
-            A simple Python program that shows working with classes and inheritance.
+            A basic Python program that shows working with classes and inheritance
             </CardText>
             <CardActions border>
             <Button colored> <a href="https://github.com/drew-m7/Python-Classes">GitHub</a></Button>
@@ -49,7 +49,7 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: 'black', height: '176px', background: '#1cb0dd'}} >Python Project #3</CardTitle>
             <CardText>
-            A super cool Python project for checking the legality of chess moves!
+            A super cool Python project for checking the legality of chess moves
             </CardText>
             <CardActions border>
             <Button colored> <a href="https://github.com/drew-m7/Chess-Moves">GitHub</a></Button>
@@ -69,9 +69,9 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: 'black', height: '176px', background: '#1cb0dd'}} >React Portfolio</CardTitle>
+            <CardTitle style={{color: 'black', height: '176px', background: '#1cb0dd'}} >My React Portfolio</CardTitle>
             <CardText>
-            My personal portfolio website built with React, Node.js, and npm. This project helped me learn some new skills with building and deploying a React project!
+            My personal portfolio website built with React and npm. This project helped me learn some new skills with building and deploying a React project!
             </CardText>
             <CardActions border>
             <Button colored> <a href="https://github.com/drew-m7/my_portfolio">GitHub</a></Button>
@@ -110,7 +110,7 @@ class Projects extends Component {
          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
           <CardTitle style={{color: 'black', height: '176px', background: '#1cb0dd'}} >C++ Programming</CardTitle>
           <CardText>
-            Several C++ projects related to binary search trees, AVL trees, and splay trees!
+            Several C++ projects related to binary search trees, AVL trees, and splay trees
             <br></br>
             <br></br>
             <br></br>
@@ -147,7 +147,7 @@ class Projects extends Component {
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
           <CardTitle style={{color: 'black', height: '176px', background: '#1cb0dd'}} >Java RMI</CardTitle>
           <CardText>
-            Here is a RMI(remote method invocation) written in java between a client and server!
+            Here is a RMI(remote method invocation) written in Java between a client and server
             <br></br>
             <br></br>
             <br></br>
