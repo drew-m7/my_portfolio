@@ -5,23 +5,19 @@ class About extends Component {
   render() {
     return(
       <div>
-        <h1><b>&nbsp;&nbsp;A Little About Me!</b></h1>
-        <hr style={{borderTop: '3px solid #0c2094', width: '29%'}}/>
-
-        {/* Don't mind all my nbsp here... */}
+        <h1><b>&nbsp;&nbsp;Who Am I ?</b></h1>
+        <hr style={{borderTop: '3px solid #1cb0dd', width: '20%'}}/>
         <h4>
-          &nbsp;&nbsp;I am Drew Martin, I grew up in the small town of Roanoke, IL and I am 22 years old. I attended Roanoke-Benson High Scool.
-          I finished my associates degree in &nbsp;&nbsp;information systems in 2020 at Illinois Central College.
+          &nbsp;&nbsp;I am Drew Martin, I grew up in Roanoke, IL and I am 22 years old. I attended Roanoke-Benson High Scool.
+          I finished my associates degree in information systems in &nbsp;&nbsp;2020 at Illinois Central College.
         
-          I did my bachelors degree in computer science at Illinois State University!
+          I finished my bachelors degree in computer science at Illinois State University!
         
-          Along the way, I've had some really &nbsp;&nbsp;cool opportunities to intern at <a href="https://www.cloudpointgeo.com/">Cloudpoint Geospatial</a> and <a href="https://mirus.io/">Mirus Research</a>.
-          When I am not working or learning something new, I am usually spending time with friends or &nbsp;&nbsp;family, or enjoying the outdoors. You may find me snowboarding, kayaking, fishing, hiking, or wakeboarding
-          depending on the time of the year. I also like to spend time &nbsp;&nbsp;working on or driving my old Jeep!
+          Along the way, I've had some really cool opportunities &nbsp;&nbsp;to intern at <a href="https://www.cloudpointgeo.com/">Cloudpoint Geospatial</a> and <a href="https://mirus.io/">Mirus Research</a>.
+         
           <br></br>
-          {/* <hr style={{borderTop: '3px solid #0c2094', width: '29%'}}/> */}
           <br></br>
-          &nbsp;&nbsp;I have had many different jobs over the years, from automotive detailing to landscaping and construction! My most relevant work has been at Cloutpoint Geo and Mirus &nbsp;&nbsp;Research.
+          &nbsp;&nbsp;I have had many different jobs over the years, from automotive detailing to landscaping and construction! However, my most relevant work has been at Cloutpoint &nbsp;&nbsp;Geospatial and Mirus Research.
           <br></br>
           <br></br>
           &nbsp;&nbsp;At Cloudpoint Geo I worked as a GIS intern to gather data, analyze data, and improve web map applications built with arcGIS. In 2021, I began working
