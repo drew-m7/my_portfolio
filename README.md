@@ -1,4 +1,5 @@
 # My first Portfolio website, built using React!
+- To view the production deployment: <a href="https://drew-m7.github.io/">Drew Martin Portfolio</a>
 - To run locally and check it out:
 - Clone this repo, CD into it, make sure npm is installed, then run npm install, and finally npm start, which will load the site in a browser!
 # Built using react and npm(Node Package Manager)!
