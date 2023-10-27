@@ -16,11 +16,11 @@ class Landing extends Component {
 
             <div className="banner-text">
               <h1>Drew Martin</h1>
-              <p> Software Engineer | UI/UX Designer | Web Developer </p>
+              <p> Software Developer </p>
 
             <hr/>
 
-          <p> Python | Java | C/C++ | HTML/CSS | JavaScript | React | Vue | R | SQL </p>
+          <p> .NET | C# | Python | Java | C/C++ | HTML/CSS | JavaScript | React | Vue | R | SQL </p>
 
         <div className="social-links">
 
