@@ -85,7 +85,6 @@ class Resume extends Component {
 
 <             Experience
                 startYear={2022}
-                endYear={Present}
                 jobName="Nussbaum Transportation | Software Developer"
                 jobDescription="Work with my team to develop robust business applications to user specifications, and implement technical solutions based on user specifications"
                 jobDescription2="Work with .NET framework to build winform applications working with the full software development lifecycle from requirements analysis, to testing, coding, and deoloyment of applications, resulting in timely project delivery while keeping up with evolving business changes and technological advancements."
