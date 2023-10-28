@@ -6,8 +6,8 @@
 
 .landing-grid {
   background: #ffffff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffffff, #1cb0dd, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffffff, #1cb0dd, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #ffe7d6, #1cb0dd, #ffe7d6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffe7d6, #1cb0dd, #ffe7d6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
   top: 0;
@@ -146,4 +146,53 @@ a:active {
   color: rgb(4, 0, 255);
   background-color: transparent;
   text-decoration: underline;
+}
+
+/* about page css */
+
+.about-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 24px;
+  color: #1cb0dd;
+  margin-bottom: 10px;
+}
+
+.about-divider {
+  border-top: 3px solid #1cb0dd;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.about-description {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* skills css */
+
+.skill-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.skill-text {
+  flex: 1; /* Take up remaining space */
+  text-align: right;
+  padding-right: 10px; /* Add some spacing between text and progress bar */
+}
+
+.progress-bar-container {
+  flex: 10; /* Adjust the value as needed to control the width of the progress bar */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress {
+  height: 10px;
 }

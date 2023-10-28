@@ -23,7 +23,7 @@ class Resume extends Component {
             <h2 style={{paddingTop: '2em'}}>Drew Martin</h2>
             <h4 style={{color: 'black'}}>Software Developer</h4>
             <hr style={{borderTop: '3px solid #1999c0', width: '50%'}}/>
-            <p> Programming languages: .NET/C# | Java, C/C++, Python, JavaScript, SQL, R, HTML/CSS <br></br>
+            <p> Programming languages: .NET/C#, Java, C/C++, Python, JavaScript, SQL, R, HTML/CSS <br></br>
                 <br></br>
                 Significant coursework: data structures and algorithms, database design, UI/UX design, computer architecture, distributed systems, operating systems, software security, graphics, computation theory, and mathematics<br></br>
                 <br></br>
@@ -47,14 +47,14 @@ class Resume extends Component {
               startYear={2014}
               endYear={2018}
               schoolName="Roanoke Benson High School"
-              schoolDescription="GPA: 3.97/4.0, National Honor Society, Beta Club "
+              schoolDescription="National Honor Society, Beta Club "
                />
 
               <Education
               startYear={2018}
               endYear={2020}
               schoolName="Illinois Central College"
-              schoolDescription="GPA: 3.7/4.0, Associate of Arts, Information Systems - Technical Emphasis "
+              schoolDescription="Associate of Arts, Information Systems - Technical Emphasis "
                />
 
                <Education
@@ -86,67 +86,70 @@ class Resume extends Component {
 <             Experience
                 startYear={2022}
                 jobName="Nussbaum Transportation | Software Developer"
-                jobDescription="Work with my team to develop robust business applications to user specifications, and implement technical solutions based on user specifications"
-                jobDescription2="Work with .NET framework to build winform applications working with the full software development lifecycle from requirements analysis, to testing, coding, and deoloyment of applications, resulting in timely project delivery while keeping up with evolving business changes and technological advancements."
+                jobDescription="Develop and maintain user-facing applications using .NET framework and C# to deliver robust and user-friendly software solutions"
+                jobDescription2="Collaborate with cross-functional teams to design and implement SQL database systems, ensuring efficient data storage and retrieval for applications, and optimizing query performance"
+                jobDescription3="Participate in the full software development lifecycle, from requirements analysis and design to coding, testing, and deployment, resulting in timely project delivery and customer satisfaction"
+                jobDescription4="Troubleshoot and resolve software defects, improving application stability and enhancing the overall user experience"
+                jobDescription5="Implement software enhancements and updates, keeping applications aligned with evolving business requirements and technological advancements"
                 />
               <hr style={{borderTop: '3px solid #1999c0'}} />
               
               <h2>Skills</h2>
               <Skills
                 skill=".NET/C#"
-                progress={95}
+                progress={900}
               />
               <Skills
                 skill="Javascript"
-                progress={75}
+                progress={750}
               />
               <Skills
                 skill="HTML/CSS"
-                progress={75}
+                progress={750}
               />
               <Skills
                 skill="Java"
-                progress={77}
+                progress={770}
               />
               <Skills
                 skill="Python"
-                progress={85}
+                progress={850}
               />
               <Skills
                 skill="C/C++"
-                progress={65}
+                progress={650}
               />
               <Skills
                 skill="Vue"
-                progress={75}
+                progress={750}
               />
               <Skills
                 skill="React"
-                progress={58}
+                progress={680}
               />
               <Skills
                 skill="R"
-                progress={30}
+                progress={300}
               />
               <Skills
                 skill="SQL"
-                progress={75}
+                progress={750}
               />
               <Skills
                 skill="UI/UX Design"
-                progress={59}
+                progress={600}
               />
               <Skills
                 skill="Frontend Dev"
-                progress={78}
+                progress={780}
               />
               <Skills
                 skill="Backend Dev"
-                progress={45}
+                progress={550}
               />
               <Skills
                 skill="Graphic Design"
-                progress={59}
+                progress={700}
               />
 
 

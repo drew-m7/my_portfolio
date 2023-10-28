@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
 
-
 class About extends Component {
   render() {
-    return(
-      <div>
-        <h1><b>&nbsp;&nbsp;Who Am I ?</b></h1>
-        <hr style={{borderTop: '3px solid #1cb0dd', width: '20%'}}/>
-        <h4>
-          I am Drew Martin.
-        </h4>
+    return (
+      <div className="about-container">
+        <h1 className="about-title">Who Am I?</h1>
+        <hr className="about-divider" />
+        <p className="about-description">
+          I am Drew! I'm a software developer who is passionate about solving business problems with technical solutions.
+        </p>
       </div>
-    )
+    );
   }
 }
 
